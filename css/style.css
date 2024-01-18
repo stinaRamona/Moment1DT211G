@@ -1,7 +1,7 @@
 body {
     background-color:rgb(245, 245, 236); 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    margin:0; 
+    margin:0;   
 } 
 
 main {
@@ -9,6 +9,7 @@ main {
     margin-right:20%;
     background-color:rgb(219, 213, 213); 
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); 
+    margin-bottom:180px; 
 } 
 
 h2 {
@@ -54,12 +55,12 @@ h1 {
 } 
 
 footer {
-    position: fixed;
+    position:fixed;  
     bottom:0; 
     text-align:center;  
     background-color:#850d49; 
     color:white; 
-    width:100vw;
+    width:100%;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
