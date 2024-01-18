@@ -63,4 +63,37 @@ footer {
     width:100%;
     display: flex;
     justify-content: center; 
+} 
+
+@media (max-width:800px){ 
+    body {
+        display:flex; 
+        flex-direction:row; 
+        padding-top:100px; 
+    }
+
+    main {
+        margin-left:5%; 
+        margin-right:5%; 
+        background-color:rgb(245, 245, 236);
+        box-shadow: none;
+    } 
+
+    nav {
+        position: fixed;
+        top:0; 
+        width: 100%;
+    }
+
+    .navbar li {
+        padding:10px; 
+    } 
+
+    .navbar a {
+        padding:1px; 
+    }
+
+    footer {
+        display:none; 
+    }
 }

@@ -64,4 +64,37 @@ footer {
   bottom: 0;
 }
 
+@media (width <= 800px) {
+  body {
+    flex-direction: row;
+    padding-top: 100px;
+    display: flex;
+  }
+
+  main {
+    box-shadow: none;
+    background-color: #f5f5ec;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+
+  .navbar li {
+    padding: 10px;
+  }
+
+  .navbar a {
+    padding: 1px;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=index.b2625c6b.css.map */
