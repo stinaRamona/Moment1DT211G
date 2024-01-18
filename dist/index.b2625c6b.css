@@ -4,6 +4,11 @@ body {
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.dark_mode {
+  color: #fff;
+  background-color: #5e5c5c;
+}
+
 main {
   background-color: #dbd5d5;
   margin-bottom: 180px;
@@ -67,7 +72,7 @@ footer {
 @media (width <= 800px) {
   body {
     flex-direction: row;
-    padding-top: 100px;
+    padding-top: 150px;
     display: flex;
   }
 
